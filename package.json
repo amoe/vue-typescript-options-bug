@@ -1,0 +1,21 @@
+{
+  "name": "typescript-karma-tests",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "David Banks <amoebae@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "ts-loader": "3.2.0",
+    "typescript": "^2.7.2",
+    "vue": "2.5.13",
+    "vue-loader": "13.7.0",
+    "vue-template-compiler": "2.5.13",
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.11.0"
+  },
+  "scripts": {
+    "test": "karma start --single-run",
+    "dev": "webpack-dev-server"
+  }
+}
